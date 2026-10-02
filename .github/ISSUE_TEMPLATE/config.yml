@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Suggest an idea
+    url: https://github.com/chiselled-code/E.V.I.E-Public/discussions/categories/ideas
+    about: A game, a subject or an improvement you'd like to see. Others can add their thoughts.
+  - name: Ask a question
+    url: https://github.com/chiselled-code/E.V.I.E-Public/discussions/categories/q-a
+    about: How to use E.V.I.E, install it or move progress between devices.
+  - name: Report a security or privacy problem
+    url: https://github.com/chiselled-code/E.V.I.E-Public/security/advisories/new
+    about: Privately, so it isn't public while we fix it.

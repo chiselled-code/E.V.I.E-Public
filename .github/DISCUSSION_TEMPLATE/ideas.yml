@@ -1,0 +1,42 @@
+title: "Idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for sharing an idea. **Everything here is public.** Please don't include a child's name, photo, school or anything else that could identify them.
+
+        E.V.I.E is free, works offline, has no accounts or adverts, and follows the national curriculum for England for ages 3 to 11. Ideas that fit those are the ones we can build.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like E.V.I.E to have or do?
+    validations:
+      required: true
+  - type: dropdown
+    id: who
+    attributes:
+      label: Who is it for?
+      options:
+        - Seedlings (3 to 5)
+        - Sprouts (5 to 7)
+        - Saplings (7 to 11)
+        - Grown-ups
+        - Everyone
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help?
+      description: What would a learner get from it, or what is hard today?
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I haven't included a child's name, photo or anything else that could identify them.
+          required: true

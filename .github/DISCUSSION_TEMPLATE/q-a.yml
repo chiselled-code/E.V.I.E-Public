@@ -1,0 +1,27 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything here is public.** Please don't include a child's name, photo, school or anything else that could identify them.
+
+        If something is broken, please [report a problem](https://github.com/chiselled-code/E.V.I.E-Public/issues/new?template=problem.yml) instead, so it can be tracked and fixed.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser (if it matters)
+      placeholder: "For example: iPad, Safari"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I haven't included a child's name, photo or anything else that could identify them.
+          required: true
