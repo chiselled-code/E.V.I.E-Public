@@ -27,6 +27,19 @@ body:
       placeholder: "For example: Number Bonds, or the grown-ups' page"
     validations:
       required: true
+  - type: checkboxes
+    id: used-with
+    attributes:
+      label: How was E.V.I.E being used? (optional)
+      description: This helps us fix problems with screen readers, switches and other ways of playing. Tick only what you're happy to share publicly.
+      options:
+        - label: Touch screen
+        - label: Mouse or trackpad
+        - label: Keyboard
+        - label: Switch (or E.V.I.E's switch scanning)
+        - label: Screen reader
+        - label: Voice control
+        - label: Screen magnifier or zoom
   - type: textarea
     id: what
     attributes:
@@ -51,7 +64,7 @@ body:
     id: details
     attributes:
       label: Version and device
-      description: Filled in for you when you report from inside E.V.I.E (For grown-ups → Report a problem). Otherwise, tell us the device and browser, for example "iPad, Safari" or "Android phone, Chrome".
+      description: Filled in for you when you report from inside E.V.I.E (For grown-ups → Report a problem), including the settings if you chose to. Otherwise, tell us the device and browser, for example "iPad, Safari" or "Android phone, Chrome".
       render: text
     validations:
       required: false

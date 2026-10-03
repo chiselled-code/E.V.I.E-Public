@@ -21,6 +21,8 @@ You need a free GitHub account to post. Anyone can read what's here without one.
 
 Everything here is public and can be found by search engines. Please don't include a child's name, photo, school, age in years or anything else that could identify them. If a screenshot shows a learner's name, crop or cover it first. We'll remove anything that identifies a child as soon as we see it.
 
+Telling us how E.V.I.E was being used (with a screen reader, a switch, voice control or a keyboard, for example) is welcome and often the only way we can fix a problem, but it's your choice: share only what you're happy to make public.
+
 ## What happens next
 
 We read everything. Problems are labelled, checked and fixed in E.V.I.E's code, and the issue is closed with a note once the fix is published. E.V.I.E updates itself, so fixes reach every device without anyone doing anything. The grown-ups' page in E.V.I.E shows what changed in each version.
